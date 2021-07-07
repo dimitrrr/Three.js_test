@@ -32,7 +32,7 @@ controls.update();
 const planeSize = 40;
 
 const loader = new THREE.TextureLoader();
-const texture = loader.load('https://threejsfundamentals.org/threejs/resources/images/checker.png');
+const texture = loader.load('./checker.png');
 texture.wrapS = THREE.RepeatWrapping;
 texture.wrapT = THREE.RepeatWrapping;
 texture.magFilter = THREE.NearestFilter;
